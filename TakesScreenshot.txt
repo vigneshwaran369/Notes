@@ -1,0 +1,16 @@
+Screenshot : 
+
+TakesScreenshot  (Interface) 
+
+TakesScreenshot ts = (TakesScreenshot) driver;   // ----> narrowing type casting
+
+File source = ts.getScreenshotAs(OutputType.FILE);
+
+File destination = new File("path\\name.format");
+
+FileUtils.copyFile(source, destination);//apache commom io
+
+
+type casting : 
+
+short s  = (short) long;  // narrowing type casting -> convert a higher datatype into lower datatype

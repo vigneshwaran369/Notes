@@ -1,0 +1,12 @@
+
+
+
+Webtable
+
+
+//table//thead//tr
+//table//tbody/tr[index]//td
+//table//tbody//tr//td[index]
+//table//tbody//tr[index]//td[index]
+//table//tbody//tr//th
+(//table)[1]--->Get all data

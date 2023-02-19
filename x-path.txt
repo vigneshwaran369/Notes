@@ -1,0 +1,110 @@
+Locators : 
+
+	  Using Locators To Find The WebElement.
+
+	  Locators Are Present In By (abstract class).
+
+
+Document Object Model ( DOM ) 
+
+In DOM  
+
+<html> 
+<Head> Tiltle </Head>
+<Body>
+<li>,<tr>,<td>,<th><table>,<input>,<a>,<br>,
+<ul>,<ol>,<iframe>,<img>,<p>,<button>,<option>
+<center>,<form>,<label>,<link>,<script>,<div>
+
+	<tagName attributeName = " attributeValue"/>  <button id="button" name="button">
+
+	<tagName Create An Account />
+</Body>
+</html>
+
+
+tagName Must Be In Pink Color.
+
+attributeName must be in Orange Color.
+
+attributeValue must be in Blue Color.
+
+Text must be in Black Color.
+
+***********************************************************************************************************************************************************************
+
+
+Locators : 
+
+          id
+
+	  name 
+
+	  className
+
+	  x-path
+
+	  CSS Selector
+
+	  tagName
+
+	  Link Text
+
+	  Partial Link Text
+
+Ctrl+shift+i-->Shortuct for open the dom page
+
+
+***********************************************************************************************	
+X-Path : 
+
+	Absolute x -path
+
+	Relative x-path
+
+	
+Relative x-path : 
+
+		 it starts with double forward slash (//).
+
+		 it will search the middle of the DOM Page
+
+Syntax : 
+
+	//tagName[@attributeName='attributeValue']
+
+	//tagName[text()='full text']
+
+       	 //tagName[contains(@attributeName,'Half attributeValue')]
+
+	//tagName[contains(text(),'half of the text')]
+
+        //tagName[normalize-space()='text']
+	
+	(//tagName[@attributeName='attributeValue'])[index]
+
+	
+
+
+***********************************************************************************************
+
+Absolute X-Path : 
+
+
+		It starts with single forward slash ( / )
+
+		It starts from html tag.
+
+		
+************************************************************************************************************
+
+
+
+
+
+
+
+
+	
+	
+	

@@ -1,0 +1,29 @@
+ Windows handling : 
+
+	window handle function helps in getting id of all the windows.
+
+
+Methods : 
+
+getWindowHandle() : 
+
+		    It returns a id of the current window (parent window)
+
+		    It's return type is String.
+
+getWindowHandles() : 
+
+		    It returns all id of the active window 
+
+		    It's return type is Set<String>.
+
+		    Each Window has a unique id so it's return type will be Set.
+
+
+
+
+
+		    
+
+		    
+

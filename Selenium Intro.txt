@@ -1,0 +1,152 @@
+SELENIUM
+AUTOMATION TESTING TOOL
+
+
+Jason Huggins -- 2004----
+ 
+QTP- HP- MERCURY - Quick Test Professional
+
+SELENIUM-2004- AUTOMATION TESTING TOOL
+
+Selenium is basically used to automate the testing across various web browsers. 
+It supports various browsers like Chrome, Mozilla Firefox, Safari. 
+and, and you can very easily automate browser testing across these browsers using Selenium WebDriver.
+
+---------------------------------------------------------------------------------
+
+Browsers-:
+Firefox,  Safari , Chrome , Opera
+
+----------------------------------------------------------------------------------
+OS-:
+Windows, Apple OS X , Linux, Solaris
+-----------------------------------------------------------------------------------
+
+Languages-:
+C# , Java ,Haskell , Java Script ,C , Perl , Ruby , PHP ,R , Python
+------------------------------------------------------------------------------------
+version-:
+Version : 3.141.59
+
+
+-----------------------------------------------------------------------------------
+WEB APPLICATIONS-:
+
+There are many types of testing that can be done with Selenium.
+You can do  functional testing {smoke testing,sanity, testing, UI testing, regression testing, and more}.
+
+----------------------------------------------------------------------------------
+
+Selenium Components :
+			Selenium IDE 
+
+			Selenium RC
+
+			Selenium WebDriver
+
+			Selenium Grid
+Selenium IDE :
+
+		IDE - > Integrated Development Environment
+
+		It can be used only in FireFox .
+
+		We cannot be used for complicated test Cases.
+Selenium RC :
+
+		RC - > Remote Control
+
+		In RC the installations are complicated.
+
+		It cannot directly interact with Browser.
+Selenium WebDriver :
+
+		   It is a automation testing tool.
+
+		   It Supports Different Browsers Along With Different Kind Of Programming languages.
+
+		   It Directly Interact With Browser.
+
+Selenium Grid : 
+
+		It Is A HubNode Concept.
+
+		It Execute Test Cases Parallely And It Reduces The Execute Time.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+Selenium                                               QTP
+Open source					Commercial & Costly
+Java,Python,Php,Ruby,Pearl		        VB Scripts- visual basic scripts
+Firefox, Chrome,Safari,Opera			FF-  - firefox
+Windows,MAC,Linux,Solaris			Windows
+Web app,Mobile App				Desktop,Web,Mobile
+More Flexible					Flexible
+
+--------------------------------------------------------------------------------------------------------------------------------
+Web Application:
+Browser -  E-commerce ., Web application which is working with browsers
+
+--------------------------------------------------------------------------------------------------------------------------------
+Mobile Application:
+Whatsapp,Messenger,Instagram,Snapchat
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Desktop Application:
+Adobe Photoshop, File explorer, MS Office
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             				    HOW TO DOWNLOAD SELENIUM
+Steps : 
+	First Download Selenium Standard Version Jar.
+	Add The Jar Into Our Project . 
+Right Click In Project ---->  Build path -----> Configure Build Path -------> Add External Jar In Libraries.
+	Create A Driver Folder in project  .
+	Download ChromeDriver.exe file  download and paste 	
+	Extract That Zip  File And Copy The File And paste into Driver Folder.
+
+***********************************************************************************************************************************************************************************
+                           Browser Launch : 
+ 
+++			    Chrome                                                    IE                                             FireFox
+
+Driver name            webdriver.chrome.driver                                 webdriver.ie.driver                             webdriver.gecko.driver
+
+
+File Name              chromedriver.exe                                        IEDriverServer.exe                              geckodriver.exe
+
+
+Class Name             ChromeDriver()                                          InternetExplorerDriver()                        FirefoxDriver()
+
+
+
+module path
+jre 
+                                                  add external jars
+class path 
+folder 
+
+
+
+
